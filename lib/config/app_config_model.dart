@@ -1,9 +1,9 @@
 class AppConfig {
   final String appId;
   final List<String> modules;
-  final Map<String, String> branding;
-  final Map<String, String> cryptoKeys;
-  final Map<String, String> apiConfig;
+  final Map<String, dynamic> branding;
+  final Map<String, dynamic> cryptoKeys;
+  final Map<String, dynamic> apiConfig;
   final Map<String, dynamic> moduleSettings;
 
   AppConfig({
