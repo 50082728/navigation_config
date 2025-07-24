@@ -19,9 +19,9 @@ class AppConfig {
     return AppConfig(
       appId: json['appId'] ?? '',
       modules: List<String>.from(json['modules'] ?? []),
-      branding: Map<String, String>.from(json['branding'] ?? {}),
-      cryptoKeys: Map<String, String>.from(json['cryptoKeys'] ?? {}),
-      apiConfig: Map<String, String>.from(json['apiConfig'] ?? {}),
+      branding: Map<String, dynamic>.from(json['branding'] ?? {}),
+      cryptoKeys: Map<String, dynamic>.from(json['cryptoKeys'] ?? {}),
+      apiConfig: Map<String, dynamic>.from(json['apiConfig'] ?? {}),
       moduleSettings: Map<String, dynamic>.from(json['moduleSettings'] ?? {}),
     );
   }
